@@ -292,6 +292,11 @@ header .header-content .header-content-inner p {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content hr{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .question-title {
     text-align: justify;
     text-transform: uppercase;
