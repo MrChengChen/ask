@@ -74,104 +74,158 @@
         </div>
     </section>
 
-    <section class="no-padding" id="portfolio">
+    <style type="text/css">
+        body{
+            -webkit-text-size-adjust: 100%;
+            -moz-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            -o-text-size-adjust: 100%;
+        }
+
+        .faq{
+            z-index: 0;
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            min-height: 300px;
+            max-width: 650px;
+            background: rgba(240,95,64,1);
+            border-style: solid;
+            border-width: 2px;
+            border-color: #222;
+        }
+        .faq .faq-title{
+            z-index: 10;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            padding: 10%;
+            font-family: "Trebuchet MS", Helvetica, sans-serif;
+            font-size: 20px;
+            text-align: center;
+            text-transform: capitalize;
+        }
+        .faq .faq-preview{
+            z-index: 20;
+            position: relative;
+            padding: 5%;
+            background-color: white;
+            opacity: .2;
+            -webkit-transition: all .5s;
+            -moz-transition: all .5s;
+            -o-transition: all .5s;
+            transition: all .5s;
+        }
+        .faq .faq-preview .faq-preview-quote{
+            border-left: 5px solid #ccc;
+            padding-left: 10px;
+            font-family: 'Lucida Console', monospace;
+            font-size: 13px;
+        }
+        .faq:hover .faq-preview{
+            opacity: 1;
+        }
+    </style>
+
+    <div class="test">
+        <p style="font-family:'Courier New';font-size:13px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p style="font-family:'Lucida Console';font-size:13px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p style="font-family:monospace;font-size:13px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+
+    <section class="no-padding" style="position:relative;">
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="question-title">Is it important to show interest in a college before applying?</div>
-                                <blockquote>
-                                    <div class="question-response text-faded">"... When an admissions committee can't admit everyone, it is helpful to have some sense of the seriousness which which a student might consider an offer of admission..."</div>
-                                    <hr class="light">
-                                    <div class="question-author">&mdash; <strong>Jenny F.</strong><br><em>Former admissions officer at MIT, Harvard, Michigan</em></div>
-                                </blockquote>
+                    <div class="faq">
+                        <div class="faq-title">
+                            <span>Is it important to show interest in a college before applying?</span>
+                        </div>
+                        <div class="faq-preview">
+                            <div class="faq-preview-quote">
+                                <span>"... When an admissions committee can't admit everyone, it is helpful to have some sense of the seriousness which which a student might consider an offer of admission..."</span>
+                                <hr class="light">
+                                <span>&mdash; <strong>Jenny F.</strong><br><em>Former admissions officer at MIT, Harvard, Michigan</em></span>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="question-title">My recommender told me to make a first draft of a letter for him. Is that a common practice?</div>
-                                <blockquote>
-                                    <div class="question-response text-faded">"I wouldn't say it's common practice to expect a first draft, and if I'm a 17-yo student applying to college, this might even intimidate me."</div>
-                                    <hr class="light">
-                                    <span class="question-author">&mdash; <strong>ThinkIVY Alumni</strong></span>
-                                </blockquote>
+                    <div class="faq">
+                        <div class="faq-title">
+                            <span>My recommender told me to make a first draft of a letter for him. Is that a common practice?</span>
+                        </div>
+                        <div class="faq-preview">
+                            <div class="faq-preview-quote">
+                                <span>"I wouldn't say it's common practice to expect a first draft, and if I'm a 17-yo student applying to college, this might even intimidate me."</span>
+                                <hr class="light">
+                                <span>&mdash; <strong>ThinkIVY Alumni</strong></span>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="question-title">My recommender told me to make a first draft of a letter for him. Is that a common practice?</div>
-                                <blockquote>
-                                    <div class="question-response text-faded">"I wouldn't say it's common practice to expect a first draft, and if I'm a 17-yo student applying to college, this might even intimidate me."</div>
-                                    <hr class="light">
-                                    <span class="question-author">&mdash; <strong>ThinkIVY Alumni</strong></span>
-                                </blockquote>
+                    <div class="faq">
+                        <div class="faq-title">
+                        <span>Is it important to show interest in a college before applying?</span>
+                        </div>
+                        <div class="faq-preview">
+                            <div class="faq-preview-quote">
+                                <span>"... When an admissions committee can't admit everyone, it is helpful to have some sense of the seriousness which which a student might consider an offer of admission..."</span>
+                                <hr class="light">
+                                <span>&mdash; <strong>Jenny F.</strong><br><em>Former admissions officer at MIT, Harvard, Michigan</em></span>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="question-title">My recommender told me to make a first draft of a letter for him. Is that a common practice?</div>
-                                <blockquote>
-                                    <div class="question-response text-faded">"I wouldn't say it's common practice to expect a first draft, and if I'm a 17-yo student applying to college, this might even intimidate me."</div>
-                                    <hr class="light">
-                                    <span class="question-author">&mdash; <strong>ThinkIVY Alumni</strong></span>
-                                </blockquote>
+                    <div class="faq">
+                        <div class="faq-title">
+                        <span>Is it important to show interest in a college before applying?</span>
+                        </div>
+                        <div class="faq-preview">
+                            <div class="faq-preview-quote">
+                                <span>"... When an admissions committee can't admit everyone, it is helpful to have some sense of the seriousness which which a student might consider an offer of admission..."</span>
+                                <hr class="light">
+                                <span>&mdash; <strong>Jenny F.</strong><br><em>Former admissions officer at MIT, Harvard, Michigan</em></span>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="question-title">My recommender told me to make a first draft of a letter for him. Is that a common practice?</div>
-                                <blockquote>
-                                    <div class="question-response text-faded">"I wouldn't say it's common practice to expect a first draft, and if I'm a 17-yo student applying to college, this might even intimidate me."</div>
-                                    <hr class="light">
-                                    <span class="question-author">&mdash; <strong>ThinkIVY Alumni</strong></span>
-                                </blockquote>
+                    <div class="faq">
+                        <div class="faq-title">
+                        <span>Is it important to show interest in a college before applying?</span>
+                        </div>
+                        <div class="faq-preview">
+                            <div class="faq-preview-quote">
+                                <span>"... When an admissions committee can't admit everyone, it is helpful to have some sense of the seriousness which which a student might consider an offer of admission..."</span>
+                                <hr class="light">
+                                <span>&mdash; <strong>Jenny F.</strong><br><em>Former admissions officer at MIT, Harvard, Michigan</em></span>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="question-title">My recommender told me to make a first draft of a letter for him. Is that a common practice?</div>
-                                <blockquote>
-                                    <div class="question-response text-faded">"I wouldn't say it's common practice to expect a first draft, and if I'm a 17-yo student applying to college, this might even intimidate me."</div>
-                                    <hr class="light">
-                                    <span class="question-author">&mdash; <strong>ThinkIVY Alumni</strong></span>
-                                </blockquote>
+                    <div class="faq">
+                        <div class="faq-title">
+                        <span>Is it important to show interest in a college before applying?</span>
+                        </div>
+                        <div class="faq-preview">
+                            <div class="faq-preview-quote">
+                                <span>"... When an admissions committee can't admit everyone, it is helpful to have some sense of the seriousness which which a student might consider an offer of admission..."</span>
+                                <hr class="light">
+                                <span>&mdash; <strong>Jenny F.</strong><br><em>Former admissions officer at MIT, Harvard, Michigan</em></span>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <aside class="bg-dark">
+    <aside class="bg-dark" style="position:relative;">
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Submit Your Questions Directly!</h2>

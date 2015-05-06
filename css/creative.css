@@ -281,6 +281,7 @@ header .header-content .header-content-inner p {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+    z-index: 20;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
@@ -320,6 +321,56 @@ header .header-content .header-content-inner p {
 .portfolio-box:hover .portfolio-box-caption {
     /* #MOd */
     opacity: 0;
+}
+
+.portfolio-box .portfolio-preview-caption {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #222;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    /* #Mod opacity: 0; */
+    background: #222;
+    z-index: 10;
+}
+
+.portfolio-box .portfolio-preview-caption {
+    position: absolute;
+    padding: 5%;
+    width: 100%;
+}
+
+.portfolio-box .portfolio-preview-caption .question-response,
+.portfolio-box .portfolio-preview-caption .question-title,
+.portfolio-box .portfolio-preview-caption .question-author {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.portfolio-box .portfolio-preview-caption hr{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.portfolio-box .portfolio-preview-caption .question-title {
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.portfolio-box .portfolio-preview-caption .question-response {
+    text-align: left;
+    font-size: 12px;
+}
+
+.portfolio-box .portfolio-preview-caption .question-author {
+    text-transform: uppercase;
+    font-size: 12px;
 }
 
 /*
