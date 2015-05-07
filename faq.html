@@ -17,17 +17,17 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
     <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <!-- link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic' rel='stylesheet' type='text/css' -->
+    <!-- link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css' -->
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <link rel="stylesheet" href="css/creative-mod.css" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -74,7 +74,9 @@
 
     <section class="bg-dark">
         <div class="container text-center">
-            <h1>Most Popular Questions</h1>
+            <h1>Popular Questions</h1>
+            <hr>
+            <h2><small>Mouse-over to preview &amp; click to read full answers.</small></h2>
         </div>
     </section>
 
@@ -95,7 +97,7 @@
             max-width: 650px;
             background: rgba(240,95,64,1);
             border-style: solid;
-            border-width: 2px;
+            border-width: 4px;
             border-color: #222;
         }
         .faq .faq-title{
@@ -109,7 +111,7 @@
             transform: translateY(-50%);
             width: 100%;
             padding: 10%;
-            font-family: Inconsolata,Consolas,'Lucida Console',Monaco,monospace; 
+            font-family: Raleway,Consolas,'Lucida Console',Monaco,monospace; 
             font-size: 24px;
             color: #222;
             text-align: justify;
@@ -131,22 +133,12 @@
         .faq .faq-preview .faq-preview-quote{
             border-left: 5px solid #ccc;
             padding-left: 10px;
-            font-family: 'Lucida Sans Unicode','Lucida Grande',sans-serif;
-            font-size: 13px;
+            font-size: 14px;
         }
         .faq:hover .faq-preview{
             opacity: 1;
         }
     </style>
-
-    <div class="test">
-        <h1 style="font-family:'Consolas';text-transform:capitalize;">Lorem ipsum dolor sit amet</h1>
-        <p style="font-family:'Lucida Sans Unicode';font-size:13px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut auctor metus. Maecenas accumsan purus orci, ut consectetur nisl vulputate in. Fusce sit amet maximus tortor. Mauris vel elit neque. Fusce ut elementum nibh. Ut nec urna eu est fermentum euismod. Curabitur convallis arcu quis pellentesque volutpat. Mauris convallis a nulla sed luctus. Aenean sollicitudin metus in pulvinar porta. Vivamus nec nibh ac urna interdum finibus sit amet at diam. Praesent porta bibendum tortor, ac ultricies dolor scelerisque ut. Integer vel sollicitudin arcu. Quisque blandit luctus blandit. In tincidunt quis libero a euismod.</p>
-
-        <h1 style="font-family:'Lucida Sans Unicode';text-transform:capitalize;">Lorem ipsum dolor sit amet</h1>
-        <p style="font-family:Roboto;font-size:13px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut auctor metus. Maecenas accumsan purus orci, ut consectetur nisl vulputate in. Fusce sit amet maximus tortor. Mauris vel elit neque. Fusce ut elementum nibh. Ut nec urna eu est fermentum euismod. Curabitur convallis arcu quis pellentesque volutpat. Mauris convallis a nulla sed luctus. Aenean sollicitudin metus in pulvinar porta. Vivamus nec nibh ac urna interdum finibus sit amet at diam. Praesent porta bibendum tortor, ac ultricies dolor scelerisque ut. Integer vel sollicitudin arcu. Quisque blandit luctus blandit. In tincidunt quis libero a euismod.</p>
-
-    </div>
 
     <section class="no-padding" style="position:relative;">
         <div class="container-fluid">
@@ -159,7 +151,7 @@
                         <div class="faq-preview">
                             <div class="faq-preview-quote">
                                 <span>&ldquo;&hellip;When an admissions committee can't admit everyone, it is helpful to have some sense of the seriousness which which a student might consider an offer of admission&hellip;&rdquo; <a class="label label-default">More</a></span>
-                                <br /><br /><span>&mdash; <strong>Jenny F</strong><br /><small><em>Former Admissions Officer at MIT, Harvard, Michigan</em></small></span>
+                                <br /><br /><span>&mdash; <strong>Jenny F</strong><br /><small>Former Admissions Officer at MIT, Harvard, Michigan</small></span>
                             </div>
                             <div class="text-center">
                                 <hr><button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#Question1">Read Full Answer</button>
@@ -191,7 +183,7 @@
                         <div class="faq-preview">
                             <div class="faq-preview-quote">
                                 <span>&ldquo;&hellip;Whether or not you address the situation can depend on a lot of circumstances. Was there something happening in a particular semester/year, and were your grades clearly lower during that time period? If yes to both, then&hellip;&rdquo; <a class="label label-default">More</a></span>
-                                <br /><br /><span>&mdash; <strong>Trevor R</strong><br /><small><em>Former Admissions Officer at Carnegie Mellon University</em></small></span>
+                                <br /><br /><span>&mdash; <strong>Trevor R</strong><br /><small>Former Admissions Officer at Carnegie Mellon University</small></span>
                             </div>
                             <div class="text-center">
                                 <hr><button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#Question1">Read Full Answer</button>
@@ -289,7 +281,7 @@
                     <h3 class="modal-title" id="Question1Label">Is it important to show interest in a college before applying?</h3>
                 </div>
                 <div class="modal-body">
-                    <h4>Author: Jenny F<br /><small><em>Former Admissions Officer at MIT, Harvard, Michigan</em></small></h4>
+                    <h3>Author: Jenny F<br /><small>Former Admissions Officer at MIT, Harvard, Michigan</small></h3>
                     <p>Many - but not all - colleges are trying to figure out just how interested a student might be in attending their college. When an admissions committee can't admit everyone, it is helpful to have some sense of the seriousness which which a student might consider an offer of admission.</p>
                     <p>Meaningful contacts are ones in which the student learns about the school (which the colleges hope will make the student even more intersted) and/or ones that show a student's sincere interest in the institution. For instance, visiting a college is one of the best ways to learn about a college. Similarly, interviewing on campus or signing up for an interview with an alumnus/a in a student's area (assuming interviews are available) are great ways to experience an institution and/or engage with someone from the community in a meaningful way. During those interviews, students can ask questions, learn great information, and start to get a sense as to whether or not the college may be the right fit for her/him.</p>
                     <p>If a student can't get on campus or if interviews aren't available, perhaps having a substantive conversation with a college representative at a college fair or reaching out to an admissions officer via email to ask serious questions (after one has done a little bit of his/her own homework on the school) would be a good idea. Sometimes colleges offer Skype interviews if distance or cost prohibit a campus visit. Or, social media or other modern technology offer opportunities to engage with admissions bloggers or other current students.</p>
