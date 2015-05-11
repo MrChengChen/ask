@@ -38,7 +38,8 @@
 
     </head>
 
-    <body id="page-top">
+    <body id="page-top" onload="if (!("ontouchstart" in document.documentElement)) {
+    document.documentElement.className += " no-touch";}">
 
         <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
