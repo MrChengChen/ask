@@ -114,14 +114,14 @@
             font-family: Raleway,Consolas,'Lucida Console',Monaco,monospace; 
             font-size: 24px;
             color: #222;
-            text-align: justify;
+            text-align: center;
             text-transform: capitalize;
         }
         .faq .faq-preview{
             z-index: 20;
             position: relative;
             padding: 5%;
-            height: 350px;
+            height: 100%;
             background-color: white;
             opacity: 0;
             -webkit-transition: all .5s;
@@ -152,6 +152,10 @@
         }
         </style>
 
+        <script type='text/javascript'>
+            $('.clickSee').click(function() { $('.faq-preview').css('opacity', '1'); });
+        </script>
+
         <section class="no-padding" style="position:relative;">
             <div class="container-fluid">
                 <div class="row no-gutter">
@@ -159,6 +163,7 @@
                         <div class="faq">
                             <div class="faq-title">
                                 <span>Is it important to show interest in a college before applying?</span>
+                                <a class="btn btn-default" href="clickSee" role="button">Read</a>
                             </div>
                             <div class="faq-preview">
                                 <p class="faq-preview-title">Is it important to show interest in a college before applying?</p>
