@@ -122,7 +122,8 @@
             position: relative;
             padding: 5%;
             height: 100%;
-            background-color: white;
+            background-color: #ccc;
+            color: black;
             opacity: 0;
             -webkit-transition: all .5s;
             -moz-transition: all .5s;
@@ -154,8 +155,10 @@
 
         <script type='text/javascript'>
             $('#clickSee').click(function(){
-                alert("I am an alert box!");
-                $('.faq-preview').css('opacity', '1');
+                $('#foo').css({
+                'background-color': 'red',
+                'color': 'white',
+                'font-size': '44px'
             });
         </script>
 
@@ -166,7 +169,6 @@
                         <div class="faq">
                             <div class="faq-title">
                                 <span>Is it important to show interest in a college before applying?</span>
-                                <button class="btn btn-default btn-xs" id="clickSee">Check</button>
                             </div>
                             <div class="faq-preview">
                                 <p class="faq-preview-title">Is it important to show interest in a college before applying?</p>
@@ -222,7 +224,7 @@
                             <div class="faq-preview">
                                 <p class="faq-preview-title">Is it better to present different views of who you are in supplemental essays, or is it okay to stick to one common theme?</p>
                                 <div class="faq-preview-quote">
-                                    <span>&ldquo;&hellip;Try to stay away from deliberately hammering away at just one aspect of yourself, though. Very often, students who had heard "you need a hook to get in to college" would try to create a hook for themselves by relentlessly promoting one achievement&hellip;&rdquo;</span>
+                                    <span>&ldquo;&hellip;Try to stay away from deliberately hammering away at just one aspect of yourself, though. Very often, students who had heard "you need a hook to get in to college" would try to create a hook&hellip;&rdquo;</span>
                                     <br /><br /><span>&mdash;<strong>Gwynne L</strong><br /><small><em>Former Admission Officer at University of Pennsylvania</em></small></span>
                                 </div>
                                 <div class="text-center">
@@ -237,6 +239,7 @@
                                 <span>Are essays important and what do admission officers want us to write?</span>
                             </div>
                             <div class="faq-preview">
+                                <p class="faq-preview-title">Are essays important and what do admission officers want us to write?</p>
                                 <div class="faq-preview-quote">
                                     <span>&ldquo;&hellip;As a former admission officer at Princeton University, University of Pennsylvania, and Bowdoin College, I can tell you unequivocally that your essays are crucially important in the admission process&hellip;&rdquo;</span>
                                     <br /><br /><span>&mdash;<strong>Private Name</strong><br /><small><em>Former Admission Officer at Princeton, UPenn, &amp; Bowdoin</em></small></span>
@@ -253,6 +256,7 @@
                                 <span>Admissions Hindsight - What are the top 10 lessons learned?</span>
                             </div>
                             <div class="faq-preview">
+                                <p class="faq-preview-title">Admissions Hindsight - What are the top 10 lessons learned?</p>
                                 <div class="faq-preview-quote">
                                     <span>&ldquo;&hellip;I personally think that you should limit the number of schools you apply to with acceptance rates under 15%. I know that some people apply to all eight ivies hoping that they will get into at least one. I understand where these people are coming from, but&hellip;&rdquo;</span>
                                     <br /><br /><span>&mdash;<strong>ThinkIVY Alumni</strong></span>
@@ -269,6 +273,7 @@
                                 <span>What's the best way to impress admission officers with your extracurriculars?</span>
                             </div>
                             <div class="faq-preview">
+                                <p class="faq-preview-title">What's the best way to impress admission officers with your extracurriculars?</p>
                                 <div class="faq-preview-quote">
                                     <span>&ldquo;&hellip;if you really want your admissions officer to ADMIRE you (in other words want your folder to truly stand out); you've got to show your personality as not just involved, but truly passionate and real. What this means is&hellip;&rdquo;</span>
                                     <br /><br /><span>&mdash;<strong>ThinkIVY Alumni</strong></span>
@@ -285,6 +290,7 @@
                                 <span>College Admissions Reflection + Advice I Learned Along The Way</span>
                             </div>
                             <div class="faq-preview">
+                                <p class="faq-preview-title">College Admissions Reflection + Advice I Learned Along The Way</p>
                                 <div class="faq-preview-quote">
                                     <span>&ldquo;&hellip;It's not about getting perfect grades and scores all the time; if you accomplish something genuinely beneficial and out of the ordinary, you're golden.&hellip;&rdquo;</span>
                                     <br /><br /><span>&mdash;<strong>Sheryl T</strong><br /><small><em>ThinkIVY Mentor (Penn '15)</em></small></span>
@@ -301,6 +307,7 @@
                                 <span>Application Tips from Expert College Admissions Officers</span>
                             </div>
                             <div class="faq-preview">
+                                <p class="faq-preview-title">Application Tips from Expert College Admissions Officers</p>
                                 <div class="faq-preview-quote">
                                     <span>&ldquo;&hellip;We once had a saying when I worked at MIT: "Admissions officers never deny students admission to their respective colleges, they only deny pieces of paper." Spend time making sure your 'paper' speaks to who you are. -Zaragoza G, Former Senior Admissions Officer at MIT&hellip;&rdquo;</span>
                                     <br /><br /><span>&mdash;<strong>Various</strong><br /><small><em>Former Admission Officers</em></small></span>
@@ -317,6 +324,7 @@
                                 <span>ThinkIVY Tips Compiled From Meetings With College Admission Officers</span>
                             </div>
                             <div class="faq-preview">
+                                <p class="faq-preview-title">ThinkIVY Tips Compiled From Meetings With College Admission Officers</p>
                                 <div class="faq-preview-quote">
                                     <span>&ldquo;&hellip;Everyone knows that the safest position to be in when applying to college is to be a student who has BOTH high test scores and good grades from high school. What do colleges say about what they are looking for when they can't get both?&hellip;&rdquo;</span>
                                     <br /><br /><span>&mdash;<strong>Various</strong><br /><small><em>Former &amp; Current Admission Officers</em></small></span>
@@ -333,6 +341,7 @@
                                 <span>QUESTION11</span>
                             </div>
                             <div class="faq-preview">
+                                <p class="faq-preview-title">QUESTION11</p>
                                 <div class="faq-preview-quote">
                                     <span>&ldquo;&hellip;QUOTE&hellip;&rdquo;</span>
                                     <br /><br /><span>&mdash;<strong>NAME</strong><br /><small><em>BACKGROUND</em></small></span>
@@ -349,6 +358,7 @@
                                 <span>QUESTION12</span>
                             </div>
                             <div class="faq-preview">
+                                <p class="faq-preview-title">QUESTION12</p>
                                 <div class="faq-preview-quote">
                                     <span>&ldquo;&hellip;QUOTE&hellip;&rdquo;</span>
                                     <br /><br /><span>&mdash;<strong>NAME</strong><br /><small><em>BACKGROUND</em></small></span>
@@ -505,7 +515,7 @@
                             <hr />
                         </div>
                         <p>In general, the best applications unfold, with each aspect (transcript, recommendations, activities, essays) adding something new to your application. In some cases, that can be different views of one aspect of your life--for example, a musician who writes one essay about mastering a difficult piece, and another about learning how to teach another person how to play. This would be the same theme, but each essay would have a different impact. Or, if your "I want to go to your college because..." essay is about the superb scientific opportunities at the college, and your essay is about your first experience with lab research, that is fine too.</p>
-                        <p><mark>Try to stay away from deliberately hammering away at just one aspect of yourself, though. Very often, students who had heard "you need a hook to get in to college" would try to create a hook for themselves by relentlessly promoting one achievement.</mark> More often than not, this would backfire because other parts of the application were more interesting to the committee, but there wasn't information there about anything but the self-selected hook. The more aspects of yourself you are able to highlight, the more opportunities you have to connect with various members of the admissions committee.</p>
+                        <p><mark>Try to stay away from deliberately hammering away at just one aspect of yourself, though. Very often, students who had heard "you need a hook to get in to college" would try to create a hook</mark> for themselves by relentlessly promoting one achievement. More often than not, this would backfire because other parts of the application were more interesting to the committee, but there wasn't information there about anything but the self-selected hook. The more aspects of yourself you are able to highlight, the more opportunities you have to connect with various members of the admissions committee.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
