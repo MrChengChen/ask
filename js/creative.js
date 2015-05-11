@@ -5,6 +5,9 @@
  */
 
 (function($) {
+    if (!("ontouchstart" in document.documentElement)) {
+        document.documentElement.className += " no-touch";
+    }
     "use strict"; // Start of use strict
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
