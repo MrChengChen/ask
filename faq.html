@@ -38,8 +38,7 @@
 
     </head>
 
-    <body id="page-top" onload="if (!("ontouchstart" in document.documentElement)) {
-    document.documentElement.className += " no-touch";}">
+    <body id="page-top" onload="if(!("ontouchstart"in document.documentElement)){document.documentElement.className+=" no-touch";}">
 
         <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
@@ -146,12 +145,17 @@
         .faq:hover .faq-preview{
             opacity: 1;
         }
+        @media(max-width:768px) {
+            .faq .faq-preview{
+                opacity: 1;
+            }
+        }
         </style>
 
         <section class="no-padding" style="position:relative;">
             <div class="container-fluid">
                 <div class="row no-gutter">
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="faq">
                             <div class="faq-title">
                                 <span>Is it important to show interest in a college before applying?</span>
@@ -168,7 +172,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="faq">
                             <div class="faq-title">
                                 <span>My recommender told me to make a first draft of a letter for him. Is that a common practice?</span>
@@ -185,7 +189,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="faq">
                             <div class="faq-title">
                                 <span>Is it necessary to explain low GPA in the personal statement?</span>
@@ -202,7 +206,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="faq">
                             <div class="faq-title">
                                 <span>Is it better to present different views of who you are in supplemental essays, or is it okay to stick to one common theme?</span>
@@ -219,7 +223,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="faq">
                             <div class="faq-title">
                                 <span>Are essays important and what do admission officers want us to write?</span>
@@ -235,7 +239,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="faq">
                             <div class="faq-title">
                                 <span>Admissions Hindsight - What are the top 10 lessons learned?</span>
@@ -251,7 +255,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="faq">
                             <div class="faq-title">
                                 <span>What's the best way to impress admission officers with your extracurriculars?</span>
@@ -267,7 +271,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="faq">
                             <div class="faq-title">
                                 <span>College Admissions Reflection + Advice I Learned Along The Way</span>
@@ -283,7 +287,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="faq">
                             <div class="faq-title">
                                 <span>Application Tips from Expert College Admissions Officers</span>
@@ -299,7 +303,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="faq">
                             <div class="faq-title">
                                 <span>ThinkIVY Tips Compiled From Meetings With College Admission Officers</span>
@@ -315,7 +319,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="faq">
                             <div class="faq-title">
                                 <span>QUESTION11</span>
@@ -331,7 +335,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="faq">
                             <div class="faq-title">
                                 <span>QUESTION12</span>
