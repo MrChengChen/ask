@@ -22,8 +22,11 @@
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
 
-    <!-- Custom CSS -->
+    <!-- Creative CSS -->
     <link rel="stylesheet" href="css/creative-mod.css" type="text/css">
+
+    <!-- ThinkIVY CSS -->
+    <link rel="stylesheet" href="css/thinkivy.css" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -53,13 +56,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="index.html#about">About</a>
+                        <a class="page-scroll" href="index.html">About</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#portfolio">Questions</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="index.html#contact">Ask!</a>
+                        <a class="page-scroll" href="ask.html">Ask!</a>
                     </li>
                 </ul>
             </div>
@@ -75,88 +78,6 @@
             <h2><small>Mouse-over to preview &amp; click to read full answers.</small></h2>
         </div>
     </section>
-
-    <style type="text/css">
-        body{
-            -webkit-text-size-adjust: 100%;
-            -moz-text-size-adjust: 100%;
-            -ms-text-size-adjust: 100%;
-            -o-text-size-adjust: 100%;
-        }
-
-        .faq{
-            z-index: 0;
-            position: relative;
-            display: block;
-            margin: 0 auto;
-            height: 350px;
-            max-width: 650px;
-            background: rgba(240,95,64,1);
-            border-style: solid;
-            border-width: 4px;
-            border-color: #222;
-        }
-        .faq .faq-title{
-            z-index: 10;
-            position: absolute;
-            top: 50%;
-            -webkit-transform: translateY(-50%);
-            -moz-transform: translateY(-50%);
-            -o-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-            width: 100%;
-            padding: 10%;
-            font-family: Raleway,Consolas,'Lucida Console',Monaco,monospace;
-            font-size: 24px;
-            color: #222;
-            text-align: center;
-            text-transform: capitalize;
-        }
-        .faq .faq-preview{
-            z-index: 20;
-            position: relative;
-            padding: 5%;
-            height: 100%;
-            background-color: #eee;
-            color: black;
-            opacity: 0;
-            -webkit-transition: all .5s;
-            -moz-transition: all .5s;
-            -ms-transition: all .5s;
-            -o-transition: all .5s;
-            transition: all .5s;
-        }
-        .faq .faq-preview .faq-preview-title{
-            line-height: 0.9;
-            text-transform: capitalize;
-            font-weight: bold;
-            font-size: 14px;
-            color: #9a0000;
-        }
-        .faq .faq-preview .faq-preview-quote{
-            border-left: 5px solid #ccc;
-            padding-left: 10px;
-            font-size: 14px;
-        }
-        .faq:hover .faq-preview{
-            opacity: 1;
-        }
-        @media(max-width:768px) {
-            .faq .faq-preview{
-                opacity: 1;
-            }
-        }
-    </style>
-
-    <script type='text/javascript'>
-        $('#clickSee').click(function(){
-            $('#foo').css({
-            'background-color': 'red',
-            'color': 'white',
-            'font-size': '44px'
-        });
-    </script>
 
     <section class="no-padding" style="position:relative;">
         <div class="container-fluid">
@@ -821,6 +742,10 @@
         </div>
     </div>
 
+</body>
+
+<footer>
+
     <!-- Custom Fonts -->
     <link href='http://fonts.useso.com/css?family=Raleway:400,600,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.useso.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
@@ -839,6 +764,6 @@
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
 
-</body>
+</footer>
 
 </html>

@@ -1,0 +1,105 @@
+body{
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -o-text-size-adjust: 100%;
+}
+
+.faq{
+    z-index: 0;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: 350px;
+    max-width: 650px;
+    background: rgba(240,95,64,1);
+    border-style: solid;
+    border-width: 4px;
+    border-color: #222;
+}
+.faq .faq-title{
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 10%;
+    font-family: Raleway,Consolas,'Lucida Console',Monaco,monospace;
+    font-size: 24px;
+    color: #222;
+    text-align: center;
+    text-transform: capitalize;
+}
+.faq .faq-preview{
+    z-index: 20;
+    position: relative;
+    padding: 5%;
+    height: 100%;
+    background-color: #eee;
+    color: black;
+    opacity: 0;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.faq .faq-preview .faq-preview-title{
+    line-height: 0.9;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 14px;
+    color: #9a0000;
+}
+.faq .faq-preview .faq-preview-quote{
+    border-left: 5px solid #ccc;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.faq:hover .faq-preview{
+    opacity: 1;
+}
+@media(max-width:768px) {
+    .faq .faq-preview{
+        opacity: 1;
+    }
+}
+
+.ask{
+    z-index: 0;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+    max-width: 650px;
+    background: #222;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+}
+
+.ask .ask-title{
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 10%;
+    font-family: Raleway,Consolas,'Lucida Console',Monaco,monospace;
+    font-size: 18px;
+    color: #E8E8E8;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.bg-light{
+    background-color: #E8E8E8;
+}
